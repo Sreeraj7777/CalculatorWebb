@@ -1,0 +1,35 @@
+.calc{
+    width: 400px;
+    height: 550px;
+    background: rgb(32, 102, 122);
+    margin-left:  500px; 
+    margin-top: 60px;
+    border-radius: 20px;
+}
+#screen{
+    width: 85%;
+    background-color: aquamarine;
+    margin-left: 26px;
+    height: 60px;
+    margin-top: 30px;
+    pointer-events: none;
+    text-align: right;
+    font-size: 32px;
+}
+.btn{
+    width: 63px;
+    height: 50px;
+    margin-left: 28px;
+    margin-top: 30px;
+    background: rgb(255, 228, 196);
+    font-size: 26px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3 ease;
+}
+
+.btn:hover
+{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
